@@ -1,0 +1,6 @@
+import pygame, os, random, time
+from pygame.locals import *
+
+pygame.init()
+pygame.mixer.music.load('backgroundmusic.wav')
+pygame.mixer.music.play(-1, 0.0)
